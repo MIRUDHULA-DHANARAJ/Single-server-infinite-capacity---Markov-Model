@@ -24,6 +24,7 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 
 
 ## Program
+~~~
 
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -49,11 +50,14 @@ if (lam <  mu):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
+~~~
 
 
 
 ## Output 
-![Uploading image.png…]()
+
+![image](https://user-images.githubusercontent.com/94828147/203703952-e58c1540-0997-4e8a-83aa-56f5953f66bb.png)
+
 
 ## Result
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
